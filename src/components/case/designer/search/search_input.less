@@ -1,0 +1,51 @@
+.searchBox{
+  width:100%;
+  height:40px;
+  background:#646464;
+  box-sizing: border-box;
+  position: relative;
+}
+.input{
+  width:100%;
+  height:100%;
+  background: none;
+  margin-left:17px;
+  border-style: none;
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+  color: #dcdcdc;
+  line-height:40px;
+  outline: none;
+}
+.Searchicon{
+  width:20px;
+  height:20px;
+  background:url("../../../../assets/pintu/search_g.png") no-repeat;
+  margin-right:15px;
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+.search_result{
+  position: absolute;
+  width:100%;
+  background: rgba(46,49,54,0.95);
+  z-index:199;
+  border:1px solid #646464;
+  border-radius: 0 0 20px 20px;
+  top:41px;
+  left:-2px;
+  .search_content{
+    width:100%;
+    list-style-type:none;
+  }
+  li{
+    font-size:14px;
+    color:#999;
+    padding:2px 16px;
+
+  }
+  li:hover{
+    color:#fff;
+  }
+}

@@ -1,0 +1,88 @@
+.head{
+    width:100%;
+    height:70px;
+    min-width:1450px;
+    background: #323232;
+}
+
+.main{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: flex-start;
+    .leftSide{
+      flex-basis: 50px;
+      background: #323232;
+      min-height:500px;
+      .leftSideNav{
+        width:100%;
+        list-style: none;
+      }
+      .icon{
+        display: inline-block;
+        width:50px;
+        height:60px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        cursor: pointer;
+      }
+      .pitu {
+        background-image: url("../../assets/pintu/my.png");
+        background-color: #323232;
+      }
+      .pitu_select {
+        background-image: url("../../assets/pintu/my_l.png");
+        background-color: #505050;
+      }
+      .search {
+        background-image: url("../../assets/pintu/search.png");
+        background-color: #323232;
+      }
+      .search_select {
+        background-image: url("../../assets/pintu/search_l.png");
+        background-color: #505050;
+      }
+      .collect {
+        background-image: url("../../assets/pintu/sofa.png");
+        background-color: #323232;
+      }
+      .collect_select {
+        background-image: url("../../assets/pintu/sofa_l.png");
+        background-color: #505050;
+      }
+      .fuzhu {
+        background-image: url("../../assets/pintu/fuzhu.png");
+        background-color: #323232;
+      }
+      .fuzhu_select {
+        background-image: url("../../assets/pintu/fuzhu_l.png");
+        background-color: #505050;
+      }
+      .detail {
+        background-image: url("../../assets/pintu/detail.png");
+        background-color: #323232;
+      }
+      .detail_select {
+        background-image: url("../../assets/pintu/detail_l.png");
+        background-color: #505050;
+      }
+    }
+    .content{
+      display: flex;
+      display: -webkit-flex;  /* Safari */
+      flex-wrap:nowrap;
+      overflow: hidden;
+      justify-content: space-between;
+      .leftContent{
+        width:490px;
+        background:#505050;
+      }
+      .rightContent{
+        height:100%;
+        flex-grow:1;
+        background: #666;
+        min-width:960px;
+      }
+    }
+}
